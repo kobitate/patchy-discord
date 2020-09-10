@@ -1,0 +1,26 @@
+{
+  "name": "patchy-discord",
+  "version": "1.0.0",
+  "description": "Sail the Seven Seas (or at least The Pirate Bay) via Discord with this bot.",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "thepiratebay": "^1.4.7",
+    "transmission": "^0.4.10"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "scripts": {
+    "dev": "pm2 start index.js --watch --name patchy-discord-dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "torrent",
+    "piratebay"
+  ],
+  "author": "KaiTiggy <hi@kaitiger.tech>",
+  "license": "Apache-2.0"
+}
